@@ -2,7 +2,7 @@ import streamlit as sl
 import joblib
 
 #load a model
-model=joblib.load('')
+model=joblib.load('spam_ham_file')
 
 #ui
 sl.title("SPAM HAM DETECTOR")
